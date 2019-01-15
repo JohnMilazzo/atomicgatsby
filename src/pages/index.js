@@ -1,3 +1,8 @@
 import React from 'react';
 
-export default () => <div>Welcome to Atomic Gatsby!</div>;
+export default () => (
+  <>
+    <h1>Atomic Gatsby</h1>
+    <h2>Home of the Gatsby Solos</h2>;
+  </>
+);
