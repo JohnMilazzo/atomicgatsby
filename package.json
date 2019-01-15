@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/JohnMilazzo/atomicgatsby/issues"
   },
-  "homepage": "https://github.com/JohnMilazzo/atomicgatsby#readme"
+  "homepage": "https://github.com/JohnMilazzo/atomicgatsby#readme",
+  "dependencies": {
+    "gatsby": "^2.0.91",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
 }
