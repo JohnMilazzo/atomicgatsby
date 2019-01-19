@@ -32,6 +32,7 @@ module.exports = {
         display: `standalone`,
         icon: `static/android-chrome-512x512.png` // This path is relative to the root of the site.
       }
-    }
+    },
+    'gatsby-plugin-offline'
   ]
 };
