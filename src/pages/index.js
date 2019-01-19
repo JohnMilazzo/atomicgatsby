@@ -13,6 +13,9 @@ export default () => (
         <Link to="/solos/gatsby-solo-helmet">gatsby-solo-helmet</Link>
       </li>
       <li>
+        <Link to="/solos/gatsby-solo-manifest">gatsby-solo-manifest</Link>
+      </li>
+      <li>
         <Link to="/solos/gatsby-solo-typography">gatsby-solo-typography</Link>
       </li>
     </ul>

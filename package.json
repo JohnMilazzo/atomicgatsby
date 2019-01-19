@@ -23,6 +23,7 @@
   "homepage": "https://github.com/JohnMilazzo/atomicgatsby#readme",
   "dependencies": {
     "gatsby": "^2.0.91",
+    "gatsby-plugin-manifest": "^2.0.13",
     "gatsby-plugin-google-gtag": "^1.0.8",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
