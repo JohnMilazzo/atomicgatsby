@@ -36,8 +36,8 @@ export default () => (
     <h3>How To</h3>
     <ul>
       <li>
-        <Link to="/how/lighthouse">
-          How to score all 100s on a Lighthouse audit
+        <Link to="/how/perfect-lighthouse-audit-with-gatsby">
+          How to Score a Perfect Lighthouse Audit with Gatsby
         </Link>
       </li>
     </ul>
