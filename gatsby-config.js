@@ -30,9 +30,22 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
-        icon: `static/android-chrome-512x512.png` // This path is relative to the root of the site.
+        icon: `static/android-chrome-512x512.png`, // This path is relative to the root of the site.
+        icons: [
+          {
+            src: '/android-chrome-192x192.png',
+            sizes: '192x192',
+            type: 'image/png'
+          },
+          {
+            src: '/android-chrome-512x512.png',
+            sizes: '512x512',
+            type: 'image/png'
+          }
+        ]
       }
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet'
   ]
 };

@@ -10,6 +10,9 @@ export default () => (
         <Link to="/solos/gatsby-solo">gatsby-solo</Link>
       </li>
       <li>
+        <Link to="/solos/gatsby-solo-google-gtag">gatsby-solo-google-gtag</Link>
+      </li>
+      <li>
         <Link to="/solos/gatsby-solo-helmet">gatsby-solo-helmet</Link>
       </li>
       <li>
