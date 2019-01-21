@@ -11,6 +11,8 @@ export default () => (
     </Helmet>
     <h1>Atomic Gatsby</h1>
     <h2>Home of the Gatsby Solos</h2>
+
+    <h3>The Solos</h3>
     <ul>
       <li>
         <Link to="/solos/gatsby-solo">gatsby-solo</Link>
@@ -29,6 +31,14 @@ export default () => (
       </li>
       <li>
         <Link to="/solos/gatsby-solo-typography">gatsby-solo-typography</Link>
+      </li>
+    </ul>
+    <h3>How To</h3>
+    <ul>
+      <li>
+        <Link to="/how/lighthouse">
+          How to score all 100s on a Lighthouse audit
+        </Link>
       </li>
     </ul>
   </>
