@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://atomicgatsby.com`
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
@@ -47,6 +50,7 @@ module.exports = {
     },
     'gatsby-plugin-netlify',
     'gatsby-plugin-offline',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap'
   ]
 };
