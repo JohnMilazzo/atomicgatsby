@@ -27,6 +27,7 @@
     "gatsby-plugin-manifest": "^2.0.13",
     "gatsby-plugin-offline": "^2.0.21",
     "gatsby-plugin-google-gtag": "^1.0.8",
+    "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
