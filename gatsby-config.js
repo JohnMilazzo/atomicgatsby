@@ -51,6 +51,19 @@ module.exports = {
     'gatsby-plugin-netlify',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://atomicgatsby.com',
+        sitemap: 'https://atomicgatsby.com/sitemap.xml',
+        policy: [
+          {
+            userAgent: '*',
+            allow: '/'
+          }
+        ]
+      }
+    },
     'gatsby-plugin-sitemap'
   ]
 };
