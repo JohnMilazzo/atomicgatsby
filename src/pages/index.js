@@ -30,6 +30,9 @@ export default () => (
         <Link to="/solos/gatsby-solo-offline">gatsby-solo-offline</Link>
       </li>
       <li>
+        <Link to="/solos/gatsby-solo-stripe">gatsby-solo-stripe</Link>
+      </li>
+      <li>
         <Link to="/solos/gatsby-solo-typography">gatsby-solo-typography</Link>
       </li>
     </ul>
