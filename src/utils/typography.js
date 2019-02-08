@@ -1,12 +1,5 @@
 import Typography from 'typography';
 
-/*
- Documented at:
- https://github.com/KyleAMathews/typography.js
-
- The values below are the defaults.
-*/
-
 const typography = new Typography({
   title: 'Defaults',
   baseFontSize: '14px',
@@ -16,18 +9,14 @@ const typography = new Typography({
     {
       name: 'Nunito',
       styles: ['200', '400', '600', '700', '800']
-    },
-    {
-      name: 'Pacifico',
-      styles: ['400']
     }
   ],
-  headerFontFamily: ['Pacifico', 'Helvetica', 'sans-serif'],
+  headerFontFamily: ['Nunito', 'Helvetica', 'sans-serif'],
   bodyFontFamily: ['Nunito', 'georgia', 'serif'],
-  headerColor: 'inherit' /* def: inherit */,
-  bodyColor: 'hsl(0,0%,0%,0.8)' /* def: hsl(0,0%,0%,0.8) */,
-  headerWeight: '400' /* def: bold */,
-  bodyWeight: '600' /* def: normal */
+  headerColor: 'inherit',
+  bodyColor: 'hsl(0,0%,0%,0.8)',
+  headerWeight: '600',
+  bodyWeight: '400'
 });
 
 export default typography;
