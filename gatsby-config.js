@@ -48,8 +48,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-plugin-netlify',
-    'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -70,6 +68,12 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography.js`
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {}
+    },
+    'gatsby-plugin-offline',
+    'gatsby-plugin-netlify'
   ]
 };
