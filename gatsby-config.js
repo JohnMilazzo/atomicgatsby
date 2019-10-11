@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://atomicgatsby.com`
+    siteTitle: `Atomic Gatsby`,
+    siteUrl: `https://atomicgatsby.com`,
+    siteTwitter: `@AtomicGatsby`,
+    siteAuthor: `John Milazzo`,
+    siteAuthorTwitter: `@John_Milazzo`
   },
   plugins: [
     {
@@ -62,7 +66,12 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-sharp`,
     'gatsby-plugin-sitemap',
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {}
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -70,9 +79,19 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {}
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`
+      }
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-images`]
+      }
+    },
+    `gatsby-transformer-sharp`,
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify'
   ]
